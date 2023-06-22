@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Almounkez</title>
+  </head>
+  <body>
+           <!-- Header -->
+           <nav class="navbar navbar-expand-lg navbar-dark" style="background: transparent;" >
+            <div class="container" >
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="logo" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse fw-bolder arabic" style="margin-right: 410px;"  id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" >
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >الصفحة الرئيسية <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#product">منتجات</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                    المتدربين
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="cv.html">Esraa JD</a>
+                      <a class="dropdown-item" href="#">صفحة 2</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">صفحة 3</a>
+                    </div>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">اتصل بنا</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      <!--end header-->
+
+
+    <!-- Home -->
+    <!--Slider-->
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+         
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          
+          <img src="images/bg3.jpg" class="d-block w-100 c-img" alt="Slide 1">
+          <div class="carousel-caption top-0" style="margin-top: 200px;" >
+            <h1 class="mt-5 fs-1 text-capitalize fw-bolder" style="color: #ffc527;">المنقذ<span style="color: white;"> برمجيات بالطريقة التي تستحق</span></h1>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/bg2.jpg" class="d-block w-100 c-img" alt="Slide 2">
+          <div class="carousel-caption top-0" style="margin-top: 150px;">
+            <h1 class="mt-5 fs-1 text-capitalize fw-bolder" style="color: #ffc527;">فريق مميز من المحترفين</h1>
+            <span class="mt-5 fs-1 text-capitalize fw-bolder">فريق العمل في الشركة مميز من الشباب الواعي والمتخصص</span>
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      
+    </div>
+   <!--end slider-->
+
+    <section class="section about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-12">
+            <div class="about__item">
+              <h2 class="section__title">برامج شاملة تخدم الجميع</h2>
+              <p class="">
+                تستمر الشركة بتقديم أفضل الخدمات والبرامج في مجال أتمتة الأعمال التجارية والخدمية والصناعية وتسعى الشركة إلى توظيف الحلول التقنية والبرمجيات المتطورة في خدمة الشركات من أجل استثمار التقنيات العالمية المتوفرة بالشكل الأمثل وتوفير الوقت والجهد للحصول على النتائج والتقارير المتكاملة من أجل وصول الادارة إلى القرارت والنتائج الصحيحة.
+              </p>
+              <button class="btn btn-warning mt-5">عرض جميع المشاريع</button>
+            </div>
+          </div>
+          <div class="col-md-7 col-12" >
+            <div class="about__img">
+              <img src="images/img6.gif" alt="" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section programs " style="background-color:#e1dae7 ;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="card">
+              <img
+                src="images/img1.jpg" style="height: 200px;"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ادارة موارد المؤسسة</h5>
+                <p class="card-text" style="height: 200px;">
+                  إن هذا النظام يعتبر الأساس لجميع المؤسسات لإدارة عملياتها المالية والمستودعية وهو يعتمد على الأسس العالمية في المحاسبة والمستودعات وتقوم جميع البرامج بإصدار القيد المالي الذي يستلمه هذا النظام ويوزعه على الحسابات الخاصة بكل عملية ويعتبر هو المسؤول عن جميع التقارير المالية والمستودعية والإحصائية والإدارية التي تحتاجها المؤسسة في إدارة الموارد الخاصة بها .
+                </p>
+                <a href="#" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12" id="product">
+            <div class="card">
+              <img
+                src="images/img3.jpg" style=" height: 200px;"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">أرشيف الوثائق الالكترونية</h5>
+                <p class="card-text" style="height: 200px;">
+               يمكّن هذا النظام الشركة من أرشفة وتوحيد النماذج والوثائق والكتب والقرارات التي تتعامل بها ضمن أشكال ومعلومات خاصة ومراقبة هذه الوثائق ومتابعتها؛ ويقوم المستخدم بإدخال المعلومات المطلوبة ويقوم بطباعتها وأرشفتها بشكل تلقائي مما يسمح باختصار الكثير من الوقت والجهد؛ كما يمكن الاحتفاظ بجميع الوثائق على أقراص ضوئية من أجل العودة إليها في وقت لاحق.
+                </p>
+                <a href="#" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="card">
+              <img
+                src="images/img4.jpg" style=" height: 200px;"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ادارة مكاتب تأجير السيارات</h5>
+                <p class="card-text" style="height: 200px;">
+              إن هذا النظام يطور شركات تأجير السيارات بشكل تنظيمي ؛ وينظم ويوفر المعلومات التي تتطلبها الشركة بشكل احترافي ؛ ويدعم مجموعة من الخدمات مثل (التذكير بمواعيد صيانة السيارات المفترضة) و( متابعة السيارات منتهية الرخصة )و( متابعة السيارات واجبة التسليم )و(إدارة الحسابات ودفعات العملاء)و(متابعة الرحلات الخاصة بالشركة)  .
+                </p>
+                <a href="#" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="subscribe__item">
+        <h2 class="section__title" style="color: black; justify-content: center; display: flex;">الرؤية</h2>
+        <p class="my-4" style="color: black;">
+          العمل على تلبية متطلبات الزبون في مجال تكنولوجيا المعلومات مع الحفاظ على علاقة طويلة الأمد مع الزبائن و التوافق التام مع التقنيات الحديثة و تسليم البرامج الوظيفية و توفير الخدمات المميزة على الرغم من أننا شركة متوسطة الحجم و لكننا نسعى للوصول لمستوى CMMI وذلك عبر التقدم والبراعة في الإنجاز و تقديم أفضل و أنسب مناهج التطور التي تعتمد على : متطلبات المشروع ، جودة العمليات باستمرار تتحسن مع رؤية لتحقيق شهادة الجودة، تخصيص و تكريس بنية QA التي تتزايد تبعا للفرق المتطورة و هي المسؤولة عن ضمان و كفالة الجودة للمنتجات.
+        </p>
+        
+      </div>
+    </section>
+
+    <footer class="section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="footer_item" >
+              <p style="color: #ffc527; font-size: 33px;">
+                الأنظمة المتجددة
+              </p>
+              <p>نحن مستعدون لمساعدتك دائما.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+      
+            <h4>لمحة عن الشركة</h4>
+            <p>الانظمة المتجددة هي إحدى الشركات المعتمدة المختصة بأعمال التطوير الإداري و إيجاد الحلول على مستوى تكنولوجيا المعلومات وتنظيم عمل الشركات و إعادة هندسة إجراءات العمل تسعى دائما إلى خدمة زبائنها مع التركيز الواضح على الجودة العالية و العمل على التسليم في الوقت المناسب.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+            <h4>وسائل التواصل</h4>
+            <ul class="">
+              <li>
+                <a href="https://www.facebook.com/almounkez/?fref=ts" class="fa fa-facebook"></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/almounkez" class="fa fa-twitter"></a>
+              </li>
+                          
+              <li>
+                <a href="https://twitter.com/almounkez" class="fa fa-linkedin"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+            <h4>اتصل بنا</h4>
+            <div class="footer-left border-bottom mb-2 pb-2">
+              <address class="margin-bottom-20">
+                ركن الدين شارع الحكيم دمشق , سوريا<br>
+                هاتف : 51598870 11 963+ <br>
+                فاكس : 51598871 11 963+<br>
+                موبايل : 351361 944 963+<br>
+                موبايل : 8811222 93 963+<br>
+              </address>
+            </div>
+            <div class="footer-left border-bottom mb-2 pb-2">
+              بريد الكتروني : <a href="mailto:info@almounkez.com">info@almounkez.com</a><br>
+
+            </div>
+          </div>
+          <div style="justify-content:center; display: flex;">
+            
+
+            <p>جميع الحقوق محفوظة &copy;2023</span></p>
+          </div>
+    
+      </div>
+          <div class="col-md-3 col-sm-6 col-12"></div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
